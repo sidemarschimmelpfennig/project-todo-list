@@ -1,0 +1,40 @@
+# EditorConfig é útil para manter a consistência de estilo de código entre editores e IDEs
+# Veja: https://editorconfig.org
+
+# Arquivo global para todo o projeto
+root = true
+
+# Configurações gerais para todos os arquivos
+[*]
+end_of_line = lf              # Usar linha de finalização LF (Unix)
+charset = utf-8               # Codificação de caracteres UTF-8
+indent_style = space          # Usar espaços para indentação
+indent_size = 2               # Usar 2 espaços para cada nível de indentação
+tab_width = 2                 # Define o número de espaços para uma tabulação
+insert_spaces = true          # Garantir que o editor insira espaços
+trim_trailing_whitespace = true # Remover espaços em branco no final das linhas
+insert_final_newline = true  # Garantir que o arquivo termine com uma nova linha
+
+# Configurações específicas para arquivos de JavaScript
+[*.js]
+indent_size = 2
+
+# Configurações específicas para arquivos Vue
+[*.vue]
+indent_size = 2
+end_of_line = lf
+
+# Configurações específicas para arquivos SCSS
+[*.scss]
+indent_size = 2
+end_of_line = lf
+
+# Configurações específicas para arquivos JSON
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Configurações específicas para arquivos Markdown
+[*.md]
+indent_style = space
+indent_size = 2
