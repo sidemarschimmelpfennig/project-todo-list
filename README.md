@@ -1,24 +1,36 @@
-# project-todo-list
+# Project TodoList
 
-## Project setup
-```
+## Setup
+
+Make sure to install dependencies:
+
+```bash
+# npm
 npm install
+
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+  # npm
+  npm run dev
 ```
 
-### Compiles and minifies for production
+Start Start the development server json
+
+```bash
+  #npm
+  npm run backend
 ```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
